@@ -1,0 +1,123 @@
+/* Made with love by Mutiullah Samim*/
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+background-image: url('../img/logo.jpeg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+
+}
+
+.container{
+height: 100%;
+align-content: center;
+}
+
+.card{
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(50, 37, 37, 0.83) !important;
+border-radius: 5%;
+}
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #ff1212;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #ff7512;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #ff7512;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+
+/* Agrega una regla para la animación de página */
+.animate-page {
+    opacity: 0; /* Puedes ajustar la propiedad de opacidad para personalizar la animación */
+    transition: opacity 1s ease; /* Ajusta la duración y el tipo de animación según tus necesidades */
+  }
+
+  /* Agrega una regla para la animación de página */
+.animate-page {
+  opacity: 0; /* Puedes ajustar la propiedad de opacidad para personalizar la animación */
+  transition: opacity 1s ease; /* Ajusta la duración y el tipo de animación según tus necesidades */
+}
+
+.transition-message {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #28a745; /* Color de fondo verde (puedes cambiarlo según tus preferencias) */
+  color: #fff;
+  padding: 30px; /* Ajusta el padding para hacer el mensaje más grande */
+  border-radius: 10px; /* Ajusta el radio de la esquina para que sea más redondeado */
+  display: none;
+  z-index: 9999; /* Asegura que el mensaje esté en la parte superior */
+  text-align: center; /* Centra el texto e imagen dentro del contenedor */
+}
+
+.success-icon {
+  width: 40px; /* Ajusta el ancho de la imagen según tus preferencias */
+  height: auto; /* Mantiene la proporción original de la imagen */
+  margin-right: 10px; /* Espacio a la derecha de la imagen */
+}
